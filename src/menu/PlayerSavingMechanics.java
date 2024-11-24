@@ -9,7 +9,7 @@ public class PlayerSavingMechanics {
 
         List<PlayerResult> results = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader("assets/Ranking.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Pac-Man/assets/Ranking.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
@@ -28,7 +28,7 @@ public class PlayerSavingMechanics {
     }
 
     public static void saveResult(PlayerResult result) {
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("assets/Ranking.txt", true))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter("Pac-Man/assets/Ranking.txt", true))) {
             bw.write(result.getUserName() + "," + result.getPoints());
             bw.newLine();
 

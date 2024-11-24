@@ -33,15 +33,15 @@ public class Pacman extends JLabel implements Runnable, KeyListener {
     private final int pacmanRow;
 
     public Pacman(int initialRow) {
-        this.pacmanUpClosedIcon = new ImageIcon(new File("assets/pacManUpClosed.png").getPath());
-        this.pacmanUpClosedIcon = new ImageIcon(new File("assets/pacManUpClosed.png").getPath());
-        this.pacmanUpOpenIcon = new ImageIcon(new File("assets/pacManUpOpen.png").getPath());
-        this.pacmanDownClosedIcon = new ImageIcon(new File("assets/pacManDownClosed.png").getPath());
-        this.pacmanDownOpenIcon = new ImageIcon(new File("assets/pacManDownOpen.png").getPath());
-        this.pacmanLeftClosedIcon = new ImageIcon(new File("assets/pacManLeftClosed.png").getPath());
-        this.pacmanLeftOpenIcon = new ImageIcon(new File("assets/pacManLeftOpen.png").getPath());
-        this.pacmanRightClosedIcon = new ImageIcon(new File("assets/pacManRightClosed.png").getPath());
-        this.pacmanRightOpenIcon = new ImageIcon(new File("assets/pacManRightOpen.png").getPath());
+        this.pacmanUpClosedIcon = new ImageIcon(new File("Pac-Man/assets/pacManUpClosed.png").getPath());
+        this.pacmanUpClosedIcon = new ImageIcon(new File("Pac-Man/assets/pacManUpClosed.png").getPath());
+        this.pacmanUpOpenIcon = new ImageIcon(new File("Pac-Man/assets/pacManUpOpen.png").getPath());
+        this.pacmanDownClosedIcon = new ImageIcon(new File("Pac-Man/assets/pacManDownClosed.png").getPath());
+        this.pacmanDownOpenIcon = new ImageIcon(new File("Pac-Man/assets/pacManDownOpen.png").getPath());
+        this.pacmanLeftClosedIcon = new ImageIcon(new File("Pac-Man/assets/pacManLeftClosed.png").getPath());
+        this.pacmanLeftOpenIcon = new ImageIcon(new File("Pac-Man/assets/pacManLeftOpen.png").getPath());
+        this.pacmanRightClosedIcon = new ImageIcon(new File("Pac-Man/assets/pacManRightClosed.png").getPath());
+        this.pacmanRightOpenIcon = new ImageIcon(new File("Pac-Man/assets/pacManRightOpen.png").getPath());
 
 
         setIcon(pacmanRightClosedIcon);

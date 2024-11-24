@@ -15,8 +15,8 @@ public class MenuWindow extends JFrame {
     private JButton newGameButton;
     private JButton highScoresButton;
     private JButton exitButton;
-    private Font pacManFont = loadFont("assets/PAC-FONT.TTF");
-    private Font menuFont = loadFont("assets/emulogic.ttf");
+    private Font pacManFont = loadFont("Pac-Man/assets/PAC-FONT.TTF");
+    private Font menuFont = loadFont("Pac-Man/assets/emulogic.ttf");
 
     public MenuWindow() {
         // Setup title

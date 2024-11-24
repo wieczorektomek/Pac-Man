@@ -39,13 +39,13 @@ public class Ghost implements Runnable {
 
         switch (ghostColor) {
             case BLUE:
-                ghostImage = new ImageIcon(new File("assets/blueGhost.png").getPath());
+                ghostImage = new ImageIcon(new File("Pac-Man/assets/blueGhost.png").getPath());
                 break;
             case GREEN:
-                ghostImage = new ImageIcon(new File("assets/greenGhost.png").getPath());
+                ghostImage = new ImageIcon(new File("Pac-Man/assets/greenGhost.png").getPath());
                 break;
             case PINK:
-                ghostImage = new ImageIcon(new File("assets/pinkGhostIcon.png").getPath());
+                ghostImage = new ImageIcon(new File("Pac-Man/assets/pinkGhostIcon.png").getPath());
                 break;
         }
 

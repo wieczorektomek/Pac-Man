@@ -1,6 +1,6 @@
 package menu;
 
-import maps.*;
+import map.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,7 +18,7 @@ public class MapMenu extends JPanel {
         this.setPreferredSize(new Dimension(720, 300));
         this.setBackground(Color.BLACK);
 
-        Font checkBoxFont = loadFont("assets/emulogic.ttf");
+        Font checkBoxFont = loadFont("Pac-Man/assets/emulogic.ttf");
 
         JRadioButton[] jRadioButtons = new JRadioButton[5];
         jRadioButtons[0] = new JRadioButton("Map 13x13");
@@ -63,26 +63,26 @@ public class MapMenu extends JPanel {
                 switch (index) {
 
                     case 0 -> {
-                        Map13x13 gamemap0 = new Map13x13();
-                        gamemap0.setVisible(true);
+                        Map gameMap = new Map(0);
+                        gameMap.setVisible(true);
                     }
 
                     case 1 -> {
-                        Map17x17 gameMap1 = new Map17x17();
-                        gameMap1.setVisible(true);
+                        Map gameMap = new Map(1);
+                        gameMap.setVisible(true);
                     }
 
                     case 2 -> {
-                        Map19x19 gameMap2 = new Map19x19();
-                        gameMap2.setVisible(true);
+                        Map gameMap = new Map(2);
+                        gameMap.setVisible(true);
                     }
                     case 3 -> {
-                        Map21x21 bigMap = new Map21x21();
-                        bigMap.setVisible(true);
+                        Map gameMap = new Map(3);
+                        gameMap.setVisible(true);
                     }
                     case 4 -> {
-                        Map25x25 gameMap4 = new Map25x25();
-                        gameMap4.setVisible(true);
+                        Map gameMap = new Map(4);
+                        gameMap.setVisible(true);
                     }
                 }
             }
